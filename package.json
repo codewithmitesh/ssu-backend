@@ -1,0 +1,45 @@
+{
+  "name": "com.studyproject_studyinabroad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhileshsoni098/studyproject-studyInAbroad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhileshsoni098/studyproject-studyInAbroad/issues"
+  },
+  "homepage": "https://github.com/akhileshsoni098/studyproject-studyInAbroad#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "clockwork": "^0.1.4",
+    "cloudinary": "^1.37.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1",
+    "firebase-admin": "^11.8.0",
+    "google-libphonenumber": "^3.2.32",
+    "jsonwebtoken": "^9.0.0",
+    "libphonenumber-js": "^1.10.30",
+    "lodash": "^4.17.21",
+    "messagebird": "^4.0.1",
+    "mongoose": "^7.0.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1",
+    "shortid": "^2.2.16",
+    "twilio": "^4.10.0",
+    "xlsx": "^0.18.5"
+  }
+}
